@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manoj portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top" data-bs-theme="dark">
+      <div class="container">
+
+        <a class="navbar-brand" href="#home">MANOJ<span>   R</span></a>
+        
+        <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navMenu"
+                aria-controls="navMenu" aria-expanded="false"
+                aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Menu links (collapses on small screens) -->
+        <div class="collapse navbar-collapse" id="navMenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+            <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <main>
+        <!-- ===== HOME / HERO SECTION ===== -->
+    <section id="home" class="hero d-flex align-items-center">
+      <div class="container">
+        <div class="row align-items-center">
+
+          <!-- Text column -->
+          <div class="col-lg-7 text-center text-lg-start order-2 order-lg-1">
+            <p class="hero-greeting">Hello, I'm</p>
+            <h1 class="hero-name">Manoj R</h1>
+            <h2 class="hero-headline">Python Fullstack Developer</h2>
+            <p class="hero-text mx-auto mx-lg-0">
+              I'm a Python Full Stack Developer passionate about building smart, responsive, and user-focused web applications by combining creative frontend design with powerful backend development.
+            </p>
+
+            <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start">
+              <a href="#projects" class="btn btn-accent btn-lg">View My Projects</a>
+              <a href="#contact" class="btn btn-outline-light btn-lg">Contact Me</a>
+            </div>
+          </div>
+
+          <!-- Picture column -->
+          <div class="col-lg-5 text-center order-1 order-lg-2 mb-5 mb-lg-0">
+<img src="/images/manoj_photo.jpg" alt="Photo of Manoj R" class="hero-photo">
+
+        </div>
+      </div>
+    </section>
+        <!-- ===== ABOUT ME SECTION ===== -->
+    <section id="about" class="section section-light">
+      <div class="container">
+
+        <div class="section-heading text-center">
+          <h2>About <span>Me</span></h2>
+          <p>A short introduction about who I am</p>
+        </div>
+
+        <div class="row align-items-center g-5">
+
+          <!-- Left column: bio text -->
+          <div class="col-lg-6">
+            <h3 class="about-title">ECE Graduate | Python Full Stack Enthusiast | AWS Cloud Certified</h3>
+            <p>
+              An Electronics and Communication Engineering (ECE) graduate with a strong interest in Python Full Stack Development and a completed AWS Cloud Practitioner certification. 
+              I am passionate about combining programming skills with cloud technologies to build responsive, efficient, and scalable web applications. With a continuous learning mindset and a problem-solving approach, 
+              I am developing my expertise in Python, front-end technologies, back-end development, and cloud computing.
+               I aspire to transform innovative ideas into meaningful digital solutions, contribute to real-world projects, and build a successful career as a Python Full Stack Developer in the IT industry.
+            </p>
+            
+          </div>
+
+          <!-- Right column: quick details card -->
+          <div class="col-lg-6">
+            <div class="info-card">
+              <ul class="list-unstyled mb-0">
+                <li><strong>Name:</strong> Manoj R</li>
+                <li><strong>Course:</strong> Electronics and Communication</li>
+                <li><strong>College:</strong> J.N.N INSTITUTE OF ENGINEERING</li>
+                <li><strong>Location:</strong> Chennai</li>
+                <li><strong>Email:</strong> manojrajabadhar2953@example.com</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+        <!-- ===== SKILLS SECTION ===== -->
+    <section id="skills" class="section">
+      <div class="container">
+
+        <div class="section-heading text-center">
+          <h2>My <span>Skills</span></h2>
+          <p>Technologies I am learning and using</p>
+        </div>
+
+        <div class="row g-4">
+
+          <!-- Skill card 1 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card">
+              <h3 class="skill-name">HTML</h3>
+              <p class="skill-desc">Structure of web pages</p>
+              <div class="progress" role="progressbar" aria-label="HTML skill level"
+                   aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 90%"></div>
+              </div>
+              <small class="skill-percent">90% (skill)</small>
+            </div>
+          </div>
+
+          <!-- Skill card 2 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card">
+              <h3 class="skill-name">CSS</h3>
+              <p class="skill-desc">Styling and layout</p>
+              <div class="progress" role="progressbar" aria-label="CSS skill level"
+                   aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 90%"></div>
+              </div>
+              <small class="skill-percent">90% (skill)</small>
+            </div>
+          </div>
+
+          <!-- Skill card 3 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card">
+              <h3 class="skill-name">Bootstrap</h3>
+              <p class="skill-desc">Responsive layouts</p>
+              <div class="progress" role="progressbar" aria-label="Bootstrap skill level"
+                   aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 80%"></div>
+              </div>
+              <small class="skill-percent">80% (skill)</small>
+            </div>
+          </div>
+
+          <!-- Skill card 4 -->
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card">
+              <h3 class="skill-name">JavaScript</h3>
+              <p class="skill-desc">Interactive features</p>
+              <div class="progress" role="progressbar" aria-label="JavaScript skill level"
+                   aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                <div class="progress-bar" style="width: 70%"></div>
+              </div>
+              <small class="skill-percent">70% (skill)</small>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+        <!-- ===== EDUCATION SECTION ===== -->
+    <section id="education" class="section section-light">
+      <div class="container">
+
+        <div class="section-heading text-center">
+          <h2>My <span>Education</span></h2>
+          <p>My learning journey so far</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+
+            <!-- Timeline -->
+            <div class="timeline">
+
+              <!-- Item 1: current course -->
+              <div class="timeline-item">
+                <span class="timeline-year">2021 – 2025</span>
+                <h3>Your Course Name</h3>
+                <p class="timeline-place">Electronics and Communication Engineering</p>
+                <p> I Completed my Under graduation in BE.ECE.</p>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="timeline-item">
+                <span class="timeline-year">2020 – 2021</span>
+                <h3>Higher Secondary</h3>
+                <p class="timeline-place">ST.Joseph Higher Secondary School</p>
+                <p>Maths with Computer Science.</p>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="timeline-item">
+                <span class="timeline-year">2018 – 2019</span>
+                <h3>Secondary School</h3>
+                <p class="timeline-place">A.G Jain Higher Secondary School</p>
+                <p>I scored 75% in secondary schooling.</p>
+              </div>
+
+            </div>
+
+           
+          </div>
+        </div>
+      </div>
+    </section>
+        <!-- ===== PROJECTS SECTION ===== -->
+    <section id="projects" class="section">
+      <div class="container">
+
+        <div class="section-heading text-center">
+          <h2>My <span>Projects</span></h2>
+          <p>Some things I have built while learning</p>
+        </div>
+
+        <div class="row g-4">
+
+          <!-- Project card 1 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card project-card">
+              <!-- Placeholder image area (we will replace it with a screenshot) -->
+              <div class="project-thumb" role="img" aria-label="Project 1 screenshot placeholder">
+                PROJECT 1
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title">A novel Machine Learning Framework For Real-Time Railway Crack Detection</h3>
+                <p class="card-text">
+                  This project detects railways track cracks in real-time using CNN-based machine learning model.
+                </p>
+                <div class="project-tags mb-3">
+                  <span class="badge">Machine Learning</span>
+                  <span class="badge">CNN</span>
+                </div>
+                <div class="mt-auto d-flex gap-2">
+                  <a href="#" class="btn btn-accent btn-sm" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                  <a href="#" class="btn btn-outline-dark btn-sm" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project card 2 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card project-card">
+              <div class="project-thumb" role="img" aria-label="Project 2 screenshot placeholder">
+                PROJECT 2
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title">Build Professional Portfolio</h3>
+                <p class="card-text">
+                  Build a professional portfolio using HTML,CSS,Javascript,BOOTSTRAP with Responsiveness for Mobile and PC.
+                </p>
+                <div class="project-tags mb-3">
+                   <span class="badge">HTML</span>
+                  <span class="badge">CSS</span>
+                  <span class="badge">Bootstrap</span>
+                  <span class="badge">JavaScript</span>
+                </div>
+                <div class="mt-auto d-flex gap-2">
+                  <a href="#" class="btn btn-accent btn-sm" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                  <a href="#" class="btn btn-outline-dark btn-sm" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project card 3 -->
+          <div class="col-md-6 col-lg-4">
+            <div class="card project-card">
+              <div class="project-thumb" role="img" aria-label="Project 3 screenshot placeholder">
+                PROJECT 3
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h3 class="card-title">static website Hosting using Amazon S3</h3>
+                <p class="card-text">
+                  Host a static website on AWS to understand cloud-based content delivery.
+                </p>
+                <div class="project-tags mb-3">
+                  <span class="badge">AWS</span>
+                  <span class="badge">Amazon S3</span>
+                  <span class="badge">Cloud Computing</span>
+                </div>
+                <div class="mt-auto d-flex gap-2">
+                  <a href="#" class="btn btn-accent btn-sm" target="_blank" rel="noopener noreferrer">Live Demo</a>
+                  <a href="#" class="btn btn-outline-dark btn-sm" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+        <!-- ===== RESUME BAND ===== -->
+    <section id="resume" class="resume-band">
+      <div class="container text-center">
+        <h2>Want to know more about me?</h2>
+        <p>Download my resume to see my education, skills and projects in one page.</p>
+        <!-- The file path below is a placeholder. See the notes after the code. -->
+        <a href="images/Manoj_R_Cloud_Resume.pdf" class="btn btn-accent btn-lg" download>
+          Download Resume
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section id="contact" class="section section-light">
+      <div class="container">
+
+        <div class="section-heading text-center">
+          <h2>Contact <span>Me</span></h2>
+          <p>Have a question or an opportunity? Get in touch</p>
+        </div>
+
+        <div class="row g-5">
+
+          <!-- Left column: contact links -->
+          <div class="col-lg-5">
+            <h3 class="about-title">Let's connect</h3>
+            <p class="text-secondary">
+              Let’s connect and build something amazing together!
+            </p>
+            <ul class="list-unstyled contact-list">
+              <li><strong>Email:</strong> <a href="mailto:manojrajabadhar2953@gmail.com">Mail me</a></li>
+              <li><strong>GitHub:</strong> <a href="https://github.com/Manoj-Rajabadhar" target="_blank" rel="noopener noreferrer">Github-Profile</a></li>
+              <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/manoj-rajabadhar-16520b224?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener noreferrer">linkedIn Profile</a></li>
+            </ul>
+          </div>
+
+          <!-- Right column: form layout -->
+          <div class="col-lg-7">
+            <form class="contact-box" id="contactForm">
+
+              <div class="mb-3">
+                <label for="name" class="form-label">Your Name</label>
+                <input type="text" class="form-control" id="name" name="name"
+                       placeholder="Enter your name" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="email" class="form-label">Your Email</label>
+                <input type="email" class="form-control" id="email" name="email"
+                       placeholder="Enter your email" required>
+              </div>
+
+              <div class="mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" name="message"
+                          rows="5" placeholder="Write your message" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-accent btn-lg">Send Message</button>
+              <div id="formMessage" class="alert alert-info mt-3 d-none" role="status"></div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    
+  </main>
+    </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container text-center">
+
+      <p class="footer-brand">MANOJ<span> R</span></p>
+
+      <!-- Social links -->
+      <nav aria-label="Social media links">
+        <ul class="list-unstyled d-flex justify-content-center flex-wrap gap-3 mb-3">
+          <li><a href="https://github.com/Manoj-Rajabadhar" class="social-link" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/manoj-rajabadhar-16520b224?utm_source=share_via&utm_content=profile&utm_medium=member_android" class="social-link" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+          <li><a href="mailto:manojrajabadhar2953@gmail.com" class="social-link">Email</a></li>
+        </ul>
+      </nav>
+
+      <a href="#home" class="back-to-top">↑ Back to top</a>
+
+      <p class="footer-copy">&copy; <span id="year"></span> Manoj R. All rights reserved.</p>
+  </footer>
+    
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
